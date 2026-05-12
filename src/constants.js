@@ -1,27 +1,29 @@
 // Skills Section Logo's
-import htmlLogo from "./assets/tech_logo/html.png";
-import cssLogo from "./assets/tech_logo/css.png";
-import javascriptLogo from "./assets/tech_logo/javascript.png";
-import reactjsLogo from "./assets/tech_logo/reactjs.png";
-import reduxLogo from "./assets/tech_logo/redux.png";
-import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
-import gsapLogo from "./assets/tech_logo/gsap.png";
-import materialuiLogo from "./assets/tech_logo/materialui.png";
-import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
-import nodejsLogo from "./assets/tech_logo/nodejs.png";
-import expressjsLogo from "./assets/tech_logo/express.png";
-import mysqlLogo from "./assets/tech_logo/mysql.png";
-import mongodbLogo from "./assets/tech_logo/mongodb.png";
-import cLogo from "./assets/tech_logo/c.png";
-import cppLogo from "./assets/tech_logo/cpp.png";
-import javaLogo from "./assets/tech_logo/java.png";
-import gitLogo from "./assets/tech_logo/git.png";
-import githubLogo from "./assets/tech_logo/github.png";
-import vscodeLogo from "./assets/tech_logo/vscode.png";
-import postmanLogo from "./assets/tech_logo/postman.png";
-import mcLogo from "./assets/tech_logo/mc.png";
-import netlifyLogo from "./assets/tech_logo/netlify.png";
-import vercelLogo from "./assets/tech_logo/vercel.png";
+import htmlLogo from "./assets/Tech_Logo/html.png";
+import cssLogo from "./assets/Tech_Logo/css.png";
+import javascriptLogo from "./assets/Tech_Logo/javascript.png";
+import reactjsLogo from "./assets/Tech_Logo/reactjs.png";
+import reduxLogo from "./assets/Tech_Logo/redux.png";
+import tailwindcssLogo from "./assets/Tech_Logo/tailwindcss.png";
+import gsapLogo from "./assets/Tech_Logo/gsap.png";
+import materialuiLogo from "./assets/Tech_Logo/materialui.png";
+import bootstrapLogo from "./assets/Tech_Logo/bootstrap.png";
+import nodejsLogo from "./assets/Tech_Logo/nodejs.png";
+import expressjsLogo from "./assets/Tech_Logo/express.png";
+import mysqlLogo from "./assets/Tech_Logo/mysql.png";
+import mongodbLogo from "./assets/Tech_Logo/mongodb.png";
+import cLogo from "./assets/Tech_Logo/c.png";
+import cppLogo from "./assets/Tech_Logo/cpp.png";
+import javaLogo from "./assets/Tech_Logo/java.png";
+import gitLogo from "./assets/Tech_Logo/git.png";
+import githubLogo from "./assets/Tech_Logo/github.png";
+import vscodeLogo from "./assets/Tech_Logo/vscode.png";
+import postmanLogo from "./assets/Tech_Logo/postman.png";
+import mcLogo from "./assets/Tech_Logo/mc.png";
+
+import renderLogo from "./assets/Tech_Logo/render-logo.png";
+
+import vercelLogo from "./assets/Tech_Logo/vercel-logo.png";
 import phpLogo from "./assets/Tech_Logo/php_logo.webp";
 import wordPressLogo from "./assets/Tech_Logo/WordPress-logo.png";
 // Experience Section Logo's
@@ -32,7 +34,7 @@ import weavesWeb from "./assets/Work_Logo/weaves-web-logo.jpg";
 // Education Section Logo's
 import hzs_logo from "./assets/Education_Logo/hzs_logo.jpg";
 
-import Techno_india_logo from "./assets/Education_Logo/Techno_india_logo.jpg ";
+import Techno_india_logo from "./assets/Education_Logo/Techno_india_logo.jpg";
 // Project Section Logo's
 
 export const SkillsInfo = [
@@ -81,7 +83,7 @@ export const SkillsInfo = [
       { name: "Postman", logo: postmanLogo },
       { name: "Compass", logo: mcLogo },
       { name: "Vercel", logo: vercelLogo },
-      { name: "Render", logo: netlifyLogo },
+      { name: "Render", logo: renderLogo },
     ],
   },
 ];

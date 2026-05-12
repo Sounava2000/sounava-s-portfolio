@@ -16,8 +16,7 @@ const Skills = () => (
       A collection of my technical skills and expertise honed through various projects and experiences
       </p>
     </div>
-
-    {/* Skill Categories */}
+ 
     <div className="flex flex-wrap gap-1 lg:gap-5 py-10 justify-between">
       {SkillsInfo.map((category) => (
         <div

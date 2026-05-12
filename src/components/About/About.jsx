@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactTypingEffect from 'react-typing-effect';
+import { TypeAnimation } from 'react-type-animation';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.png';
+import profileImage from '../../assets/profile-img.png';
 
 const About = () => {
   return (
@@ -18,37 +18,32 @@ const About = () => {
           </h1> 
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
            Sounava Mukherjee
-          </h2>
-          {/* Skills Heading with Typing Effect */}
+          </h2> 
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
-            <ReactTypingEffect
-              text={[
-                'Fullstack Developer',
-                'Mern Developer',
-                 
-                'Coder',
-              ]}
-              speed={100}
-              eraseSpeed={50}
-              typingDelay={500}
-              eraseDelay={2000}
-              cursorRenderer={(cursor) => (
-                <span className="text-[#8245ec]">{cursor}</span>
-              )}
-            />
-          </h3>
-          {/* About Me Paragraph */}
+            <TypeAnimation
+  sequence={[
+    'Fullstack Developer',
+    1000,
+    'Mern Developer',
+    1000,
+    'Coder',
+    1000,
+  ]}
+  wrapper="span"
+  speed={50}
+  repeat={Infinity}
+/>
+          </h3> 
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
+            I am a full-stack developer with over 1 year of experience in
             building scalable web applications. Skilled in both front-end and
             back-end development, I specialize in the MERN stack and other
             modern technologies to create seamless user experiences and
             efficient solutions.
-          </p>
-          {/* Resume Button */}
+          </p> 
           <a
-            href="https://drive.google.com/file/d/1_pLl2wjYVCU-wnqXIhjhYr0YC0SJXvwv/view?usp=sharing"
+            href=" "
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
