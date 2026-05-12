@@ -70,6 +70,7 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-4">
           <a
             href="
+            https://github.com/Sounava2000
             "
             target="_blank"
             rel="noopener noreferrer"
@@ -79,6 +80,7 @@ const Navbar = () => {
           </a>
           <a
             href="
+            https://www.linkedin.com/in/sounava-mukherjee-859330406/
             "
             target="_blank"
             rel="noopener noreferrer"

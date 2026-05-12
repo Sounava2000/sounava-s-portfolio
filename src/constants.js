@@ -36,6 +36,12 @@ import hzs_logo from "./assets/Education_Logo/hzs_logo.jpg";
 
 import Techno_india_logo from "./assets/Education_Logo/Techno_india_logo.jpg";
 // Project Section Logo's
+// Work Logo
+import Image_Upload from "./assets/Work_Logo/Image-Upload-App.PNG";
+import todo_redux from "./assets/Work_Logo/todo-redux-app.PNG";
+import employee_dashboard_logo from "./assets/Work_Logo/mern-employee-dashboard.PNG";
+import doctor_admin from "./assets/Work_Logo/doctor_admin.PNG";
+import doctor_mern from "./assets/Work_Logo/doctor-mern.PNG";
 
 export const SkillsInfo = [
   {
@@ -148,10 +154,10 @@ export const education = [
     degree: " ",
   },
 ];
-
 export const projects = [
   {
     id: 0,
+    img: todo_redux,
     title: "Task Manager using Redux Toolkit",
     description:
       "A modern and responsive Todo Application built with React, Redux Toolkit, and Tailwind CSS. Features include adding, editing, deleting, completing, and filtering todos with persistent LocalStorage support. All state management and todo operations are fully handled using Redux Toolkit.",
@@ -161,6 +167,8 @@ export const projects = [
   },
   {
     id: 1,
+    img: Image_Upload,
+
     title: "MERN Image Upload Manager",
     description:
       "A MERN stack image upload application featuring single and multiple image uploads, Multer-based file handling, Cloudinary cloud storage, MongoDB integration, image previews, and responsive UI.",
@@ -178,6 +186,8 @@ export const projects = [
   },
   {
     id: 2,
+    img: employee_dashboard_logo,
+
     title: "MERN Employee Dashboard",
     description:
       "A full-stack employee management dashboard built with the MERN stack featuring CRUD operations, backend pagination, and image upload functionality. The application allows users to create, read, update, and delete employee records efficiently while supporting profile image uploads using Multer and Cloudinary. Built with REST APIs, responsive UI design, and seamless frontend-backend integration.",
@@ -196,6 +206,8 @@ export const projects = [
   },
   {
     id: 3,
+    img: doctor_mern,
+
     title: "Doctor Appointment Booking System",
     description:
       "A MERN stack doctor appointment booking system with patient authentication, appointment scheduling, profile management, and responsive UI.",
@@ -214,6 +226,8 @@ export const projects = [
   },
   {
     id: 4,
+    img: doctor_admin,
+
     title: "Doctor & Admin Dashboard",
     description:
       "A MERN stack admin and doctor dashboard featuring appointment management, doctor management, authentication, analytics dashboard, and profile update functionality.",
