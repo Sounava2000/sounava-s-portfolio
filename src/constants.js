@@ -49,7 +49,7 @@ export const SkillsInfo = [
     skills: [
       { name: "HTML", logo: htmlLogo },
       { name: "CSS", logo: cssLogo },
-      { name: "JavaScript", logo: javascriptLogo },
+      { name: "JS", logo: javascriptLogo },
       { name: "React JS", logo: reactjsLogo },
       { name: "Redux", logo: reduxLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
@@ -75,9 +75,9 @@ export const SkillsInfo = [
       { name: "Java", logo: javaLogo },
       { name: "PHP", logo: phpLogo },
 
-      { name: "WORDPRESS", logo: wordPressLogo },
+      { name: "WordPress", logo: wordPressLogo },
 
-      { name: "JavaScript", logo: javascriptLogo },
+      { name: "JS", logo: javascriptLogo },
     ],
   },
   {
