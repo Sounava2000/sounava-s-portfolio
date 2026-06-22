@@ -38,7 +38,7 @@ function App() {
         <Education />
           <Contact />  
         <Footer />
-        bbbbbbbb
+       
       </div>
 
     </div>
