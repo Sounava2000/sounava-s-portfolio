@@ -108,7 +108,7 @@ export const experiences = [
     id: 1,
     img: weavesWeb,
     role: "Fullstack Intern",
-    company: "Agumentik Group of Companies",
+    company: "Weavers Web",
     date: "September 2024 - November 2025",
     desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript,  NoSQL , Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
     skills: [
